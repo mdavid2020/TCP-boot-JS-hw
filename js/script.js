@@ -15,8 +15,8 @@ $(".changeBtn2").click(function(){
 $(".changeBtn3").click(function(){
     console.log("click is working Btn3")
     ;
-    $(".thirdDiv").css("background","");
-    $(".thirdDiv").css("border-color","");
+    $(".thirdDiv").css("background","teal");
+    $(".thirdDiv").css("border-color","hotpink");
 })
 
 $(".changeAllBtn").click(function(){
@@ -28,6 +28,35 @@ $(".changeAllBtn").click(function(){
     $(".thirdDiv").css("border-color","yellow");
 })
 
-$("hideBtn1").click(function(){
+$(".hideBtn1").click(function(){
     $(".firstDiv").hide();
 })
+
+$(".hideBtn2").click(function(){
+    $(".secondDiv").hide();
+})
+
+$(".hideBtn3").click(function(){
+    $(".thirdDiv").hide();
+})
+
+$(".hideAllBtn").click(function(){
+    $(".firstDiv,.secondDiv,.thirdDiv").hide();
+})
+
+$(".showAllBtn").click(function(){
+    $(".firstDiv,.secondDiv,.thirdDiv").show();
+})
+
+$(".resetColorsBtn").click(function(){
+    console.log("click is working Change All")
+    ;
+    $(".firstDiv").css("background","red");
+    $(".firstDiv").css("border-color","black");
+    $(".secondDiv").css("background","blue");
+    $(".secondDiv").css("border-color","yellow");
+    $(".thirdDiv").css("background","green");
+    $(".thirdDiv").css("border-color","purple");
+})
+
+
