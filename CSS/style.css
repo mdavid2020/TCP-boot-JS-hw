@@ -10,31 +10,49 @@ h2{
 
 .container-fluid{
     text-align: center;
-
     }
 
+.boxesRow{
+    height: 300px;
+}
 
-.btnfirst{
+.boxesRow div{
+    height: 100%;
+}
+
+.firstDiv{
+    background:red;
     border-style:solid;
-    border-width: 135px 198px;
-    border-color:red;
-    
-       
+    border-width: 3px;
+    border-color: black;        
+}
+.firstDivNew{
+    background: pink;
+    border-style:solid;
+    border-width: 3px;
+    border-color:orange;        
 }
 
-.btnmiddle{
+.secondDiv{
     border-style:dashed;
-    border-width: 135px 198px;
-    border-color:blue;
-    
+    border-width: 3px;
+    background:blue;
+    border-color:yellow;
+}
+.thirdDiv{
+    border-style:solid;
+    border-width: 3px;
+    background:green;
+    border-color:purple;
+          
+}
+.changeAllColors{
+    background: black;
+    border-style:dotted;
+    border-width: 10px;
+    border-color: cadetblue;        
 }
 
-.btnlast{
-    border-style:dashed;
-    border-color: green;
-    border-width: 135px 198px;
-    
-}
 h6, h5{
     text-align: center;
     text-decoration: underline;
