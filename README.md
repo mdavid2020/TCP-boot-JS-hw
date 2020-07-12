@@ -1,9 +1,9 @@
 # 03 Bootstrap and JS/jQuery: Change/Hide Box Buttons
 
-Change box buttons should change the color and border of corresponding box
-Hide box buttons should hide the corresponding box
-Reset buttons should change the colors back to the default
-show all buttons should show all boxes
+* Change box buttons should change the color and border of corresponding box
+* Hide box buttons should hide the corresponding box
+* Reset buttons should change the colors back to the default
+* Show all buttons should show all boxes
 
 
 The following image demonstrates the layout and content:
